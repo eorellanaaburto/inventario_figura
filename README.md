@@ -8,7 +8,7 @@ Una app desarrollada en **Flutter** para coleccionistas de figuras de anime, esp
 ## 🧩 Características
 
 - 📸 Captura fotos directamente desde la cámara.
-- 🔍 Comparación automática de imágenes para evitar duplicados.
+- 🔍 Comparación automática de Nombre para evitar duplicados de la figura.
 - 🗃️ Organización por **serie** y **subserie**:  
   _Dragon Ball, Dragon Ball Z, GT, Super, Daima..._
 - 📝 Registro de tipo y nombre personalizados para cada figura.
