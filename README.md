@@ -1,39 +1,46 @@
-Inventario de Figuras
-Una aplicación móvil desarrollada en Flutter para coleccionistas de figuras de anime, especialmente enfocada en el universo de Dragon Ball.
+# 📦 Inventario de Figuras - Flutter App
 
-Descripción
-La aplicación permite registrar, organizar y visualizar figuras coleccionables con fotografía, nombre, tipo y su respectiva saga o subserie. Además, incluye una función inteligente que compara automáticamente nuevas imágenes con las ya registradas para evitar duplicados visuales.
+¡Bienvenido al **Inventario de Figuras**!  
+Una app desarrollada en **Flutter** para coleccionistas de figuras de anime, especialmente del universo **Dragon Ball** 🐉.
 
-Funcionalidades principales:
-📷 Captura de imagen desde la cámara para registrar nuevas figuras.
+---
 
-🔍 Detección automática de figuras similares basada en comparación de imágenes.
+## 🧩 Características
 
-📂 Organización por serie y subserie (Dragon Ball, DBZ, GT, Super, etc.).
+- 📸 Captura fotos directamente desde la cámara.
+- 🔍 Comparación automática de imágenes para evitar duplicados.
+- 🗃️ Organización por **serie** y **subserie**:  
+  _Dragon Ball, Dragon Ball Z, GT, Super, Daima..._
+- 📝 Registro de tipo y nombre personalizados para cada figura.
+- 📋 Visualización del listado completo de figuras.
+- 🚫 Prevención de figuras repetidas con confirmación manual.
 
-📝 Ingreso de nombre y tipo personalizado para cada figura.
+---
 
-📋 Listado completo de todas las figuras guardadas.
+## 📱 Vista Previa
 
-🚫 Prevención de duplicados con confirmación manual del usuario.
+<p align="center">
+  <img src="screenshots/screenshot_1.png" width="200" />
+  <img src="screenshots/screenshot_2.png" width="200" />
+  <img src="screenshots/screenshot_3.png" width="200" />
+</p>
 
-Requisitos
-Flutter SDK
+---
 
-Dependencias:
+## 🛠️ Tecnologías
 
-image_picker
+- [Flutter](https://flutter.dev/)
+- [sqflite](https://pub.dev/packages/sqflite)
+- [image_picker](https://pub.dev/packages/image_picker)
+- [path_provider](https://pub.dev/packages/path_provider)
+- [image](https://pub.dev/packages/image)
 
-sqflite
+---
 
-path_provider
+## 🚀 Cómo ejecutar
 
-image
-
-Ideal para:
-Coleccionistas de figuras que desean llevar un inventario ordenado.
-
-Usuarios que quieren evitar comprar o registrar figuras repetidas.
-
-Fans de Dragon Ball con amplias colecciones físicas.
-
+```bash
+git clone https://github.com/tuusuario/inventario_figuras.git
+cd inventario_figuras
+flutter pub get
+flutter run
